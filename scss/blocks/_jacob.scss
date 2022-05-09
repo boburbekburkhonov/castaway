@@ -1,0 +1,46 @@
+.jacob {
+  padding-top: 254px;
+
+  &__container {
+    display: flex;
+    align-items: center;
+  }
+
+  &__left {
+    display: flex;
+    flex-direction: column;
+    margin-right: 60px;
+  }
+
+  &__span {
+    display: inline-block;
+    margin-top: 20px;
+    margin-bottom: 25px;
+    font-size: 18px;
+    line-height: 27px;
+    color: #118DA8;
+  }
+
+  &__heading {
+    max-width: 522px;
+    margin: 0;
+    margin-bottom: 28px;
+    font-size: 65px;
+    line-height: 79px;
+    letter-spacing: 2.88px;
+    color: #FFFFFF;
+  }
+
+  &__desc {
+    max-width: 560px;
+    margin: 0;
+    font-size: 22px;
+    line-height: 33px;
+    color: rgba(255, 255, 255, 0.7);
+
+    & + & {
+      margin-top: 33px;
+    }
+  }
+
+}

@@ -1,0 +1,38 @@
+.comment {
+  padding-top: 190px;
+
+  &__list {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    margin: 0;
+    margin: -8px;
+    padding: 0;
+  }
+
+  &__item {
+    max-width: 423px;
+    width: 100%;
+    margin: 8px;
+    padding: 54px 0 51px 50px;
+    background: #000000;
+    border-radius: 32px;
+  }
+
+  &__desc {
+    max-width: 313px;
+    margin: 0;
+    margin: 20px 0;
+    font-size: 36px;
+    line-height: 43px;
+    color: #FFFFFF;
+
+    &-small {
+      margin: 0;
+      font-size: 24px;
+      line-height: 29px;
+      color: rgba(255, 255, 255, 0.7);
+    }
+  }
+
+}

@@ -1,0 +1,71 @@
+.subscribe {
+  padding-top: 202px;
+
+  &__container {
+    padding: 60px 60px 75px 60px;
+    display: flex;
+    align-items: center;
+    background: #000000;
+    border-radius: 32px;
+  }
+
+  &__left {
+    margin-right: 227px;
+  }
+
+  &__span {
+    display: inline-block;
+    margin-bottom: 26px;
+    font-size: 18px;
+    line-height: 27px;
+    color: #118DA8;
+  }
+
+  &__heading {
+    max-width: 435px;
+    margin: 0;
+    font-size: 72px;
+    line-height: 79px;
+    letter-spacing: 2.88px;
+    color: #FFFFFF;
+  }
+
+  &__form {
+    display: flex;
+    flex-direction: column;
+  }
+
+  &__input {
+    width: 522px;
+    padding: 26px 0;
+    background: #191919;
+    border: 1px solid #191919;
+    border-radius: 6px;
+    color: #FFFFFF;
+
+    & + & {
+      margin-top: 20px;
+    }
+
+    &::placeholder {
+      color: rgba(255, 255, 255, 0.7);
+      padding-left: 20px;
+    }
+
+    &:focus {
+      outline: none;
+      border: 1px solid #191919;
+    }
+  }
+
+  &__btn {
+    margin-top: 30px;
+    max-width: 87px;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 29px;
+    color: rgba(255, 255, 255, 0.7);
+  }
+
+
+}
